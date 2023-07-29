@@ -1,0 +1,35 @@
+{
+    "$schema": "./recipes.schema.json",
+    "recipes": [
+        {
+            "id": "example-recipe",
+            "Description": "test description",
+            "ingredients": [
+                {
+                    "amount": "a bit",
+                    "comment": "a lil more",
+                    "name": "something"
+                },
+                {
+                 "amount": "a lil more",
+                 "name": "something else"
+                }
+            ],
+            "name": "Example Recipe",
+            "steps": [
+                {
+                    "step": "make it"
+                },
+                {
+                    "step": "eat it"
+                },
+                {
+                    "step": "???"
+                },
+                {
+                    "step": "Profit!"
+                }
+            ]
+        }
+    ]
+}

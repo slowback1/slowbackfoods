@@ -67,6 +67,7 @@
 		list-style: none;
 		background-color: var(--tertiary-color);
 		flex-direction: column;
+		z-index: 10;
 	}
 	.sub-menu a {
 		border-bottom: 1px solid var(--primary-color-font);

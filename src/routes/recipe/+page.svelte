@@ -11,8 +11,11 @@
 		<p class="recipe-card__title">
 			{recipe.name}
 		</p>
+		<span class="recipe-card__type">
+			{recipe.recipeType}
+		</span>
 		<p class="recipe-card__description">
-			{recipe.Description}
+			{recipe.description}
 		</p>
 	</a>
 {/each}
@@ -27,6 +30,14 @@
 		flex-direction: column;
 		border: 1px solid var(--secondary-color-font);
 		padding: 4px 8px;
+		margin-bottom: 12px;
+		position: relative;
+		transition: transform 0.5s;
+		transform: translateX(0);
+	}
+
+	.recipe-card:hover {
+		transform: translateX(12px);
 	}
 
 	.recipe-card__title {
@@ -37,5 +48,26 @@
 
 	.recipe-card__description {
 		margin: 12px 0;
+	}
+	.recipe-card__type {
+		position: absolute;
+		top: 8px;
+		right: 12px;
+		padding: 4px;
+		border-radius: 12px;
+		background-color: var(--primary-color);
+		min-width: 80px;
+		text-align: center;
+	}
+
+	@media screen and (max-width: 400px) {
+		.recipe-card__type {
+			position: relative;
+			top: unset;
+			min-width: unset;
+			right: unset;
+			width: fit-content;
+			margin-top: 12px;
+		}
 	}
 </style>

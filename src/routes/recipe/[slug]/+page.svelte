@@ -5,7 +5,7 @@
 </script>
 
 <h1>{data.name}</h1>
-<p>{data.Description}</p>
+<p>{data.description}</p>
 
 <div class="recipe__content">
 	<div class="recipe__ingredients">

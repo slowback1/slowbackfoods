@@ -1,9 +1,10 @@
 export interface Recipe {
 	id: string;
-	Description: string;
+	description: string;
 	ingredients: RecipeIngredient[];
 	name: string;
 	steps: RecipeStep[];
+	recipeType: string;
 }
 
 export interface RecipeIngredient {

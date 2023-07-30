@@ -1,7 +1,7 @@
-import recipeList from '../../../json/recipes.json';
+import RecipeHelpers from '$lib/recipeHelpers';
 
 export function entries() {
-	let { recipes } = recipeList;
+	let recipes = RecipeHelpers.GetAllRecipes();
 
 	return recipes.map((recipe) => ({ slug: recipe.id }));
 }
@@ -9,7 +9,7 @@ export function entries() {
 export function load({ params }) {
 	let { slug } = params;
 
-	let recipe = recipeList.recipes.find((r) => r.id == slug);
+	let recipe = RecipeHelpers.GetRecipeById(slug);
 
 	if (!recipe) throw new Error('Recipe Not Found');
 

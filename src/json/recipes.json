@@ -2,32 +2,55 @@
     "$schema": "./recipes.schema.json",
     "recipes": [
         {
-            "id": "example-recipe",
-            "Description": "test description",
+            "id": "boneless-pork-ribs",
+            "Description": "Easy to make pork ribs that take little more than 30 minutes of total cook time.  Best made with a side, such as roasted carrots or mashed potatoes.",
             "ingredients": [
                 {
-                    "amount": "a bit",
-                    "comment": "a lil more",
-                    "name": "something"
+                    "amount": "a pinch",
+                    "name": "Salt"
                 },
                 {
-                 "amount": "a lil more",
-                 "name": "something else"
+                    "amount": "a pinch",
+                    "name": "pepper"
+                },
+                {
+                    "amount": "a pinch",
+                    "name": "paprika"
+                },
+                {
+                    "amount": "a pinch",
+                    "name": "cayenne pepper"
+                },
+                {
+                    "amount": "a pinch",
+                    "name": "garlic powder"
+                },
+                {
+                    "amount": "a pinch",
+                    "name": "onion powder"
+                },
+                {
+                    "amount": "enough to glaze the top",
+                    "name": "barbeque sauce"
+                },
+                {
+                    "amount": "1.5lbs",
+                    "name": "country pork boneless ribs"
                 }
             ],
-            "name": "Example Recipe",
+            "name": "Boneless Pork Ribs",
             "steps": [
                 {
-                    "step": "make it"
+                    "step": "Preheat oven to 350degrees"
                 },
                 {
-                    "step": "eat it"
+                    "step": "Mix salt, pepper, paprika, cayenne pepper, garlic powder, and onion powder into a small bowl"
                 },
                 {
-                    "step": "???"
+                    "step": "Line a baking sheet with aluminum foil, place ribs on sheet, cover with mixed seasoning, rubbing into place.  Place into the oven and cook for 25 minutes"
                 },
                 {
-                    "step": "Profit!"
+                    "step": "Take ribs out, glaze the top with barbeque sauce, put back in the oven for 5-10 more minutes, then take out and serve"
                 }
             ]
         }

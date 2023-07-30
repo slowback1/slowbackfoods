@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Slowback Foods</h1>
+<p>
+	Slowback's personal repository of recipes. <a class="view-link" href="/recipe"
+		>View all of the recipes here</a
+	>
+</p>
+
+<style>
+	.view-link {
+		color: var(--link-color);
+	}
+</style>

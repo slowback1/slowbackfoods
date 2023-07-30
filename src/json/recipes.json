@@ -3,7 +3,9 @@
     "recipes": [
         {
             "id": "boneless-pork-ribs",
-            "Description": "Easy to make pork ribs that take little more than 30 minutes of total cook time.  Best made with a side, such as roasted carrots or mashed potatoes.",
+            "description": "Easy to make pork ribs that take little more than 30 minutes of total cook time.  Best made with a side, such as roasted carrots or mashed potatoes.",
+            "name": "Boneless Pork Ribs",
+            "recipeType": "Main Dish",
             "ingredients": [
                 {
                     "amount": "a pinch",
@@ -36,21 +38,110 @@
                 {
                     "amount": "1.5lbs",
                     "name": "country pork boneless ribs"
+                },
+                {
+                    "amount": "1",
+                    "name": "red onion"
                 }
             ],
-            "name": "Boneless Pork Ribs",
             "steps": [
                 {
                     "step": "Preheat oven to 350degrees"
                 },
                 {
-                    "step": "Mix salt, pepper, paprika, cayenne pepper, garlic powder, and onion powder into a small bowl"
+                    "step": "Mix salt, pepper, paprika, cayenne pepper, garlic powder, and onion powder into a small bowl. Dice red onion."
                 },
                 {
-                    "step": "Line a baking sheet with aluminum foil, place ribs on sheet, cover with mixed seasoning, rubbing into place.  Place into the oven and cook for 25 minutes"
+                    "step": "Line a baking sheet with aluminum foil, place ribs on sheet, cover with mixed seasoning, rubbing into place.  Spread red onion around ribs.  Place into the oven and cook for 25 minutes"
                 },
                 {
                     "step": "Take ribs out, glaze the top with barbeque sauce, put back in the oven for 5-10 more minutes, then take out and serve"
+                }
+            ]
+        },
+        {
+            "id": "breaded-chicken",
+            "description": "Simple breaded chicken recipe that is baked in the oven.  Goes well with roasted asparagus.",
+            "name": "Breaded Chicken",
+            "recipeType": "Main Dish",
+            "ingredients": [
+                {
+                    "amount": "a pinch",
+                    "name": "Salt"
+                },
+                {
+                    "amount": "a pinch",
+                    "name": "pepper"
+                },
+                {
+                    "amount": "a pinch",
+                    "name": "italian seasoning"
+                },
+                {
+                    "amount": "enough to cover chicken",
+                    "name": "panko bread crumbs"
+                },
+                {
+                    "amount": "enough to cover chicken",
+                    "name": "sour cream"
+                },
+                {
+                    "amount": "1lb",
+                    "name": "boneless, skinless chicken breast"
+                },
+                {
+                    "amount": "a pinch / to taste",
+                    "name": "parmesean cheese"
+                }
+            ],
+            "steps": [
+                {
+                    "step": "Preheat oven to 400degrees"
+                },
+                {
+                    "step": "Pat chicken dry, and cover with salt, pepper, and italian seasoning.  Place on a baking sheet with foil.  Brush chicken with a small amount of sour cream, covering the entire chicken piece with it."
+                },
+                {
+                    "step": "Cover chicken with bread crumbs.  Press into chicken if desired to help the bread crumbs stick.  Place in the oven and  cook for 15-20 minutes.  If desired, add a small amount of parmesean cheese to the chicken when there is about 5 minutes left, and cook with the cheese for the rest of the way.  Serve"
+                }
+            ]
+        },
+        {
+            "id": "roasted-carrots",
+            "description": "Extremely simple side dish.  Just put it in the oven with whatever else you're cooking!",
+            "name": "Roasted Carrots",
+            "recipeType": "Side",
+            "ingredients": [
+                {
+                    "amount": "a pinch",
+                    "name": "Salt"
+                },
+                {
+                    "amount": "a pinch",
+                    "name": "pepper"
+                },
+                {
+                    "amount": "1lb",
+                    "name": "carrots"
+                },
+                {
+                    "amount": "a little bit",
+                    "name": "oil"
+                },
+                {
+                    "amount": "a pinch",
+                    "name": "oregano leaves"
+                }
+            ],
+            "steps": [
+                {
+                    "step": "Preheat oven to 400degrees"
+                },
+                {
+                    "step": "Slice carrots into thin discs, no more than a quarter inch thick.  Toss in a bowl with the rest of the ingredients"
+                },
+                {
+                    "step": "Place carrots on a baking sheet, cook for 15-20 minutes.  Serve"
                 }
             ]
         }

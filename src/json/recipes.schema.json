@@ -1,77 +1,76 @@
-
-
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "recipes": {
-        "type": "array",
-        "items": [
-          {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "ingredients": {
-                "type": "array",
-                "items": [
-                  {
-                    "type": "object",
-                    "properties": {
-                      "name": {
-                        "type": "string"
-                      },
-                      "amount": {
-                        "type": "string"
-                      },
-                      "comment": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "name",
-                      "amount"
-                    ]
-                  }
-                ]
-              },
-              "steps": {
-                "type": "array",
-                "items": [
-                  {
-                    "type": "object",
-                    "properties": {
-                      "step": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "step"
-                    ]
-                  }
-                ]
-              },
-              "Description": {
-                "type": "string"
-              }
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "recipes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
             },
-            "required": [
-              "id",
-              "name",
-              "ingredients",
-              "steps"
-            ]
-          }
-        ]
-      }
-    },
-    "required": [
-      "recipes"
-    ]
-  }
-  
-  
+            "name": {
+              "type": "string"
+            },
+            "ingredients": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "amount": {
+                      "type": "string"
+                    },
+                    "comment": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "amount"
+                  ]
+                }
+              ]
+            },
+            "steps": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "step": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "step"
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "type": "string"
+            },
+            "recipeType": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "ingredients",
+            "steps"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "recipes"
+  ]
+}

@@ -7,9 +7,9 @@
 </script>
 
 <header>
-	<a href="/">Home</a>
-
+	<span />
 	<nav>
+		<a href="/">All Recipes</a>
 		<div class="menu-wrapper" role="menu">
 			<a
 				role="menuitem"
@@ -19,7 +19,7 @@
 				tabindex="0"
 				class="menu-toggle"
 			>
-				Recipes
+				Featured Recipes
 			</a>
 			<div
 				class="sub-menu"
@@ -32,7 +32,6 @@
 						{recipe.name}
 					</a>
 				{/each}
-				<a on:click={() => (recipeMenuOpen = false)} href="/recipe"> All Recipes</a>
 			</div>
 		</div>
 	</nav>

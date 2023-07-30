@@ -4,6 +4,8 @@
 	export let data: Recipe;
 </script>
 
+<a href="/">&lt; Back to Recipe List</a>
+
 <h1>{data.name}</h1>
 <p>{data.description}</p>
 
@@ -45,6 +47,10 @@
 
 	li {
 		margin-top: 12px;
+	}
+
+	a {
+		color: var(--link-color);
 	}
 
 	@media screen and (max-width: 600px) {

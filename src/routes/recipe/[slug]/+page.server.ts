@@ -13,7 +13,5 @@ export function load({ params }) {
 
 	if (!recipe) throw new Error('Recipe Not Found');
 
-	console.log(recipe);
-
 	return recipe;
 }

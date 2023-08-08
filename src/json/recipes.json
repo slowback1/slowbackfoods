@@ -144,6 +144,56 @@
                     "step": "Place carrots on a baking sheet, cook for 15-20 minutes.  Serve"
                 }
             ]
+        },
+        {
+            "id": "mexican-rice",
+            "description": "Flavorful rice with a small hint of spice in it.  Up the amount of peppers to up the heat!",
+            "name": "Mexican Rice",
+            "recipeType": "Side",
+            "ingredients": [
+                {
+                    "amount": "1 diced",
+                    "name": "small habenero pepper"
+                },
+                {
+                    "amount": "2 sliced lengthwise",
+                    "name": "green bell pepper"
+                },
+                {
+                    "amount": "3 sliced into discs",
+                    "name": "carrots"
+                },
+                {
+                    "amount": "1/4, diced",
+                    "name": "yellow onion"
+                },
+                {
+                    "amount": "1 18oz can",
+                    "name": "diced tomatoes"
+                },
+                {
+                    "amount": "1 1/2 cups",
+                    "name": "long grain rice"
+                },
+                {
+                    "amount": "3 cups",
+                    "name": "water"
+                }
+            ],
+            "steps": [
+                {
+                    "step": "Drizzle a large saucepan in oil and heat to medium-high heat.  Add rice to pan and cook, stirring frequently for 10 minutes"
+                },
+                {
+                    "step": "Add all of the other ingredients to the saucepan, stir"
+                },
+                {
+                    "step": "Bring to a simmer, then  cover the pan.  Lower heat to low, and cook for 30 minutes"
+                },
+                {
+                    "step": "Move off heat and let sit, still covered, for 10 minutes.  Fluff rice with a fork, and serve"
+                }
+            ]
         }
     ]
 }
